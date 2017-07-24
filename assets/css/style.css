@@ -16,6 +16,31 @@ li.active{
 	background-color: transparent;
 }
 
+.contactee{
+	width: 99%;
+	/*margin: 1% 25% 1% 1%;*/
+}
+
+.desc{
+	text-align: center;
+	background-image: url("./../images/br_brass.jpg");
+	background-size: 100%;
+	position: absolute;
+	width: 85%;
+	border-width: 2px 2px 2px .5px;
+	border-color: #9c501a;
+	border-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	bottom: 50px;
+	z-index: 1;
+}
+
+.messagetxt{
+	width: 99%;
+	height: 150px;
+}
+
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:focus, 
 .nav-tabs>li.active>a:hover {
@@ -127,13 +152,20 @@ li.active{
 
 	.navtabs{
 		margin-left: 23%;
+		margin-right: 23%;
 	}
 }
 
 @media screen and (max-width: 500px){
 		.navtabs{
 		margin-left: 15%;
+		margin-right: 15%;
 	}
 }
 
-
+@media screen and (max-width: 388px){
+		.navtabs{
+		margin-left: 0%;
+		margin-right: 5%;
+	}
+}
