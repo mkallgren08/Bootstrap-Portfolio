@@ -1,0 +1,74 @@
+body{
+	background-image: url("./../images/br_nickel.png");
+}
+
+div{
+	border: dotted black 1px;
+}
+
+h1{
+	min-width: 311.5px;
+
+}
+
+li.active{
+	background-image: url("./../images/br_brass.jpg");
+	background-color: transparent;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	background-color: transparent;
+	border: 2px solid #9eaeb5;
+	border-bottom: transparent;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+.container-fluid{
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.footer{
+	border-top: 3px solid #9c501a;
+	background-image: url("./../images/br_copper2.jpg");
+	background-size: 100%;
+	/*position: absolute*/;
+	/*bottom: 0px;*/
+
+}
+
+.mainbody{
+	
+}
+
+.namelogo{
+	margin: 1% 1% 1% 4%;
+	padding: 0.5% 1%;
+	background-image: url("./../images/br_brass.jpg");
+	background-size: 100%;
+	min-width: 311.5px;
+}
+
+.navbar{
+	background-color: #ebebeb;
+	margin-bottom: 0px;
+}
+
+.nav-tabs{
+	position: absolute;
+	right: 5%;
+	bottom: 0%;
+}
+
+@media screen and (max-width: 768px;){
+	.navbar{
+		min-height:200px;
+	}
+}
