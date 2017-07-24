@@ -2,12 +2,12 @@ body{
 	background-image: url("./../images/br_nickel.png");
 }
 
-div{
+/*div{
 	border: dotted black 1px;
 }
-
+*/
 h1{
-	min-width: 311.5px;
+	text-align: center;
 
 }
 
@@ -44,31 +44,64 @@ li.active{
 
 }
 
+#headshot{
+	width: 75%;
+	height: auto;
+	padding-bottom: 10px;
+}
+
+.icon {
+	height: 45px;
+	width: 45px;
+	margin: 10px 10px 0px 10px;
+}
+
+.iconlnk{
+	float:left;
+}
+
 .mainbody{
 	
 }
 
 .namelogo{
-	margin: 1% 1% 1% 4%;
+	margin: 1% 1% 1% 2%;
 	padding: 0.5% 1%;
 	background-image: url("./../images/br_brass.jpg");
 	background-size: 100%;
-	min-width: 311.5px;
+	min-width: 251px;
 }
 
-.navbar{
+.banner{
 	background-color: #ebebeb;
 	margin-bottom: 0px;
 }
 
-.nav-tabs{
-	position: absolute;
-	right: 5%;
-	bottom: 0%;
+.maincontent{
+	margin: 10px 0px;
+	background-color: #ebebeb;
+	border-radius: 5px;
 }
 
-@media screen and (max-width: 768px;){
-	.navbar{
-		min-height:200px;
-	}
+.navbar{
+	margin-bottom: 0px;
+	background-color: #ebebeb;
 }
+
+.nav-tabs{
+	min-width: 251px;
+	/*position: absolute;
+	right: 5%;
+	bottom: 0%;*/
+}
+
+.panel{
+	margin-top: 4%;
+	width:90%;
+}
+
+.panel-title{
+	border-bottom: 2px solid #999;
+	padding-bottom: 10px;
+}
+
