@@ -4,8 +4,8 @@ body{
 
 /*div{
 	border: dotted black 1px;
-}
-*/
+}*/
+
 h1{
 	text-align: center;
 
@@ -58,6 +58,7 @@ li.active{
 
 .iconlnk{
 	float:left;
+	width:33%;
 }
 
 .mainbody{
@@ -88,6 +89,10 @@ li.active{
 	background-color: #ebebeb;
 }
 
+.navtabs{
+	margin-left: 16%;
+}
+
 .nav-tabs{
 	min-width: 251px;
 	/*position: absolute;
@@ -104,4 +109,31 @@ li.active{
 	border-bottom: 2px solid #999;
 	padding-bottom: 10px;
 }
+
+.topfill{
+	height: 50px;
+}
+
+@media screen and (max-width: 1003px){
+	.navtabs{
+		margin-left: 3%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.topfill{
+		height: 10px;
+	}
+
+	.navtabs{
+		margin-left: 23%;
+	}
+}
+
+@media screen and (max-width: 500px){
+		.navtabs{
+		margin-left: 15%;
+	}
+}
+
 
